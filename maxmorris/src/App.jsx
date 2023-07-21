@@ -8,10 +8,13 @@ function App() {
   
 
   return (
-    <div>
+    <div className='card-overlay'>
       <Banner pageName="Hi, I'm Max!" />
-      <h2>A UX Designer and Researcher that Knows the Web</h2>
+      <div className='subheader'>
+        <h2>A UX Designer and Researcher that Knows the Web</h2>
+      </div>
     </div>
+    
   )
 }
 
