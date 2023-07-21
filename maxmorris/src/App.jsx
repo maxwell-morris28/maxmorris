@@ -1,19 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Banner from './Banner.jsx'
+import { Routes, Route } from 'react-router-dom';
+import Home from './Home.jsx';
+import About from './About.jsx';
+import Resume from './Resume.jsx';
+import Contact from './Contact.jsx';
+
+
+
+
 
 function App() {
   
 
   return (
-    <div className='card-overlay'>
-      <Banner pageName="Hi, I'm Max!" />
-      <div className='subheader'>
-        <h2>A UX Designer and Researcher that Knows the Web</h2>
-      </div>
-    </div>
+    <Routes>
+      <Route path='/' element={ <Home /> } />
+      <Route path='/About' element={ <About /> } />
+      <Route path='/Resume' element={ <Resume /> }/>
+      <Route path='/Contact' element={ <Contact /> }/>
+    </Routes>
     
   )
 }
