@@ -5,13 +5,7 @@ import About from './About.jsx';
 import Resume from './Resume.jsx';
 import Contact from './Contact.jsx';
 
-
-
-
-
 function App() {
-  
-
   return (
     <Routes>
       <Route path='/' element={ <Home /> } />
