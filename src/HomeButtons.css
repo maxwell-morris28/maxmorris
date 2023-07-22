@@ -1,0 +1,117 @@
+.homeButtons {
+    display: flex;
+    margin:auto;
+    width: 690px;
+    padding: 25px 1px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 110px 97px;
+    flex-wrap: wrap;
+}
+
+#projectsButton {
+    width: 267px;
+    height: 89px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    background: rgba(0, 94, 21, 0.30);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 159.023%; /* 47.707px */
+    letter-spacing: 3px;
+    
+}
+
+#projectsButton:hover {
+    transition:300ms;
+    background: rgba(0, 255, 56, 0.35);
+    font-weight: 700;
+}
+
+#aboutButton {
+    width: 267px;
+    height: 89px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    background: rgba(112, 0, 130, 0.30);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 159.023%; /* 47.707px */
+    letter-spacing: 3px;
+}
+
+#aboutButton:hover {
+    transition: 100ms;
+    background: rgba(219, 0, 255, 0.35);
+    font-weight: 700;
+}
+
+#resumeButton {
+    width: 267px;
+    height: 89px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    background: rgba(102, 104, 0, 0.30);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 159.023%; /* 47.707px */
+    letter-spacing: 3px;
+}
+
+#resumeButton:hover {
+    transition: 100ms;
+    background: rgba(250, 255, 0, 0.35);
+    font-weight: 700;  
+}
+
+#contactButton {
+    width: 267px;
+    height: 89px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    background: rgba(100, 0, 0, 0.30);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 159.023%; /* 47.707px */
+    letter-spacing: 3px;
+}
+
+#contactButton:hover {
+    transition: 100ms;
+    background: rgba(255, 0, 0, 0.35);
+    font-weight: 700; 
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}

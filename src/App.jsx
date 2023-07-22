@@ -4,6 +4,8 @@ import Projects from './Projects.jsx';
 import About from './About.jsx';
 import Resume from './Resume.jsx';
 import Contact from './Contact.jsx';
+import './App.css';
+
 
 function App() {
   return (
