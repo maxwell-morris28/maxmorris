@@ -6,7 +6,9 @@ html, body, h1  {
 
 .container {
     display: flex;
+    height: 182px;
     justify-content: center;
+    align-items: center;
     border-radius: 0px 0px 30px 30px;
     background: rgba(0, 0, 0, 0.65);
     color: white;
@@ -19,7 +21,8 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    font-size: 75px;
+    /*font-size: 75px;*/
+    font-size: 468.75%; /*converted from 75px*/
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;

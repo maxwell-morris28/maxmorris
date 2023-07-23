@@ -1,9 +1,13 @@
+import SubBanner from "./SubBanner"
+import './Resume.css'
+
 function Resume() {
     return (
-      <div className='card-overlay'>
-        hiiiiiiiiiiiiii
+      <div id="resumeBackground">
+        <div className='card-overlay'>
+          <SubBanner pageName='Resume'/>
+        </div>
       </div>
-      
     )
   }
   

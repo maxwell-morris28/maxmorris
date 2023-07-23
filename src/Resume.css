@@ -1,0 +1,7 @@
+#resumeBackground {
+    height:100%;
+    background-image: url('homeBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}

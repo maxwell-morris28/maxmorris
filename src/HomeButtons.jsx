@@ -3,25 +3,25 @@ import './HomeButtons.css';
 
 export function ProjectButton() {
     return (
-        <button className='homeButton' id='projectsButton'><Link to='/projects'>My Projects</Link></button>
+        <Link to='/projects'><button className='homeButton' id='projectsButton'>My Projects</button></Link>
     );
 }
 
 export function AboutButton() {
     return (
-        <button className='homeButton' id='aboutButton'><Link to='/about'>About</Link></button>
+        <Link to='/about'><button className='homeButton' id='aboutButton'>About</button></Link>
     );
 }
 
 export function ResumeButton() {
     return (
-        <button className='homeButton' id='resumeButton'><Link to='/resume'>Resume</Link></button>
+        <Link to='/resume'><button className='homeButton' id='resumeButton'>Resume</button></Link>
     );
 }
 
 export function ContactButton() {
     return (
-        <button className='homeButton' id='contactButton'><Link to='/contact'>Contact</Link></button>
+        <Link to='/contact'><button className='homeButton' id='contactButton'>Contact</button></Link>
     );
 }
 
