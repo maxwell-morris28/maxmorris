@@ -1,7 +1,52 @@
 #resumeBackground {
     height:100%;
-    background-image: url('homeBackground.png');
+    background-image: url('pexels-pixabay-434337.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
 }
+
+#resumeSubheader {
+    font-size: 50px;
+}
+
+p {
+    display: flex;
+    width: 75%;
+    /*height: 139px;*/
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    color: #FFF;
+    text-align: center;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 159%; /* 39.75px */
+    margin-bottom: 3%;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: 5px;
+}
+
+.card-overlay {
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.6);
+  }

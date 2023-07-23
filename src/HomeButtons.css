@@ -59,7 +59,7 @@
     font-weight: 700;
 }
 
-#resumeButton {
+.resumeButton {
     width: 267px;
     height: 89px;
     flex-shrink: 0;
@@ -77,10 +77,34 @@
     letter-spacing: 3px;
 }
 
-#resumeButton:hover {
+.resumeButton:hover {
     transition: 100ms;
     background: rgba(250, 255, 0, 0.35);
     font-weight: 700;  
+}
+
+#resumeSubButton {
+    width: 299px;
+    height: 67px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    background: rgba(102, 104, 0, 0.30);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 159.023%; /* 47.707px */
+    letter-spacing: 3px;
+}
+
+#resumeSubButton:hover {
+    transition: 100ms;
+    background: rgba(250, 255, 0, 0.35);
+    font-weight: 700;   
 }
 
 #contactButton {

@@ -15,7 +15,13 @@ export function AboutButton() {
 
 export function ResumeButton() {
     return (
-        <Link to='/resume'><button className='homeButton' id='resumeButton'>Resume</button></Link>
+        <Link to='/resume'><button className='homeButton resumeButton'>Resumé</button></Link>
+    );
+}
+
+export function ResumeSubButton() {
+    return (
+        <a href="path_to_file" download="proposed_file_name"><button className='homeButton' id='resumeSubButton'>Download Resumé</button></a>
     );
 }
 
