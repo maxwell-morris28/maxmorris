@@ -35,3 +35,9 @@ h2 {
   line-height: 159.023%; /* 63.609px */
   letter-spacing: 4px;
 }
+
+@media screen and (max-width: 600px) {
+  html, body {
+    overflow-x: hidden;
+  }
+}

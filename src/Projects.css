@@ -1,0 +1,63 @@
+html, body {
+}
+#projectBackground {
+    min-height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+
+}
+.project-title {
+    width: 100%;
+    font-size: 60px;
+    color: #FFF;
+}
+
+.ProjectOne {
+    height: 520px;
+    margin-bottom: 20px;
+    background-image: url('social_events.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.ProjectTwo {
+    height: 520px;
+    margin-bottom: 20px;
+    background-image: url('homeBackground_cropped.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.ProjectThree {
+    height: 520px;
+    background-image: url('social_events.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.project-desc {
+    display: flex;
+    max-width: 620px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.card-overlay {
+    height: 100%;
+}
+
+.project-container {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project-container h1 {
+    height: 90px;
+    font-weight: 400;
+}
+

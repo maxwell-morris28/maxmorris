@@ -7,6 +7,12 @@ export function ProjectButton() {
     );
 }
 
+export function ProjectsSubButton(props) {
+    return (
+        <a href={props.projectLink}><button className='homeButton' id='projectsSubButton'>View Project</button></a>
+    );
+}
+
 export function AboutButton() {
     return (
         <Link to='/about'><button className='homeButton' id='aboutButton'>About</button></Link>
