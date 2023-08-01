@@ -1,0 +1,47 @@
+#aboutBackground {
+    background-image: url('aboutBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.aboutContainer {
+    display: flex;
+}
+
+#intro {
+    margin: auto;
+    width: 35%;
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 159%; /* 33.39px */
+    letter-spacing: 1.47px;
+}
+
+#headshot {
+    display: flex;
+    margin-right: 15%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.aboutSubheader {
+    font-size: 50px;
+}
+
+#missionHeader {
+    margin-top: -0.5%;
+}
+
+#missionText {
+    width: 50%;
+    font-family: 'Proxima Nova';
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 159%; /* 33.39px */
+    letter-spacing: 1.47px;
+}
