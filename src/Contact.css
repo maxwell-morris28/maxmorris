@@ -1,0 +1,6 @@
+#contactBackground {
+    height:100%;
+    background-image: url('contact_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -37,6 +37,12 @@ export function ContactButton() {
     );
 }
 
+export function ContactSubButton(props) {
+    return (
+        <a href={props.contactLink} target='_blank' rel="noreferrer"><button className='homeButton' id='contactSubButton'>{props.contactName}</button></a>
+    )
+}
+
     
     
 
