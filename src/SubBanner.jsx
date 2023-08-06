@@ -3,8 +3,8 @@ import './Banner.css'
 
 function SubBanner(props) {
     return (
-        <div>
-            <div style={{position:'absolute', top: '3%', left: '2%'}}>
+        <div className='subBannerContainer'>
+            <div style={{position:'absolute', top: '15%', left: '2%'}}>
                 <BackButton />
             </div>
             <div className="container">

@@ -5,6 +5,10 @@
     background-attachment: fixed;
 }
 
+.aboutContentAll {
+    padding-top: 210px;
+}
+
 .aboutContainer {
     display: flex;
 }
@@ -29,6 +33,7 @@
 }
 
 .aboutSubheader {
+    margin-top: 0;
     font-size: 50px;
 }
 

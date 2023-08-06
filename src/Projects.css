@@ -5,6 +5,10 @@ html, body {
     background: rgba(0, 0, 0, 0.8);
 
 }
+.projectContentAll {
+    padding-top: 167px;
+}
+
 .project-title {
     width: 100%;
     font-size: 60px;

@@ -6,7 +6,8 @@ import { ProjectsSubButton } from './HomeButtons';
 function Projects() {
     return (
       <div id="projectBackground">
-          <SubBanner pageName='My Projects' id='projects-banner' />
+        <SubBanner pageName='My Projects' id='projects-banner' />
+        <div className='projectContentAll'>
           <div className='ProjectOne'>
             <div className='card-overlay'>
               <div className='project-container'>
@@ -38,7 +39,8 @@ function Projects() {
                   <ProjectsSubButton />
                 </div>
             </div>  
-          </div>      
+          </div> 
+        </div>     
       </div>
       
     )

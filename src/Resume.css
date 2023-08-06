@@ -6,7 +6,12 @@
     
 }
 
+.resumeContentAll {
+    padding-top: 210px;
+}
+
 #resumeSubheader {
+    margin-top: 0;
     font-size: 50px;
 }
 
