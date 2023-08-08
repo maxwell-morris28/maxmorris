@@ -9,7 +9,7 @@ export function ProjectButton() {
 
 export function ProjectsSubButton(props) {
     return (
-        <a href={props.projectLink}><button className='homeButton' id='projectsSubButton'>View Project</button></a>
+        <a href={props.projectLink} target='_blank' rel='noreferrer'><button className='homeButton' id='projectsSubButton'>View Project</button></a>
     );
 }
 

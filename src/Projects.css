@@ -38,11 +38,27 @@ html, body {
     background-image: url('social_events.png');
     background-size: cover;
     background-repeat: no-repeat;
-
+    margin-bottom: 20px;
 }
+
+.ProjectFour {
+    height: 520px;
+    background-image: url('social_events.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.ProjectFive {
+    height: 520px;
+    background-image: url('social_events.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .project-desc {
     display: flex;
-    max-width: 620px;
+    max-width: 750px;
     margin: 0;
     font-weight: 300;
 }
