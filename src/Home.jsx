@@ -1,7 +1,6 @@
 import Banner from './Banner.jsx';
 import { ProjectButton, AboutButton, ResumeButton, ContactButton } from './HomeButtons.jsx';
 //import ProjectButton from './ProjectButton.jsx';
-import { Link } from 'react-router-dom';
 import './Home.css';
 
 

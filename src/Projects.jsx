@@ -11,7 +11,7 @@ function Projects() {
           <div className='ProjectOne'>
             <div className='card-overlay'>
               <div className='project-container'>
-                <h1 className='project-title'>Preventative Healthcare Experience Model</h1>
+                <h1 className='project-title'>Preventative Healthcare Model</h1>
                 <p className='project-desc'>Applying user research methods to determine the barriers for customers of a clinic
                 trying to maintain a healthy lifestyle</p>
                 <ProjectsSubButton projectLink="https://uxfol.io/p/mmorris18/021f5381"/>
@@ -54,7 +54,7 @@ function Projects() {
           <div className='ProjectFive'>
             <div className='card-overlay'>
               <div className='project-container'>
-                <h1 className='project-title'>Repainting the Canvas</h1>
+                <h1 className='project-title'>Online Learning Case Study</h1>
                 <p className='project-desc'>Applying user centered research and design to assist the adjustment to 
                 online learning during the COVID-19 pandemic</p>
                   <ProjectsSubButton projectLink='https://uxfol.io/p/mmorris18/038ff6de'/>

@@ -1,0 +1,11 @@
+#backPosition {
+    position: absolute;
+    top: 15%;
+    left: 2%;
+}
+@media screen and (max-width: 491px) {
+    #backPosition {
+        top: 33%;
+        left: 5%;
+    }
+}

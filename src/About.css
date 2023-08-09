@@ -73,3 +73,40 @@ ul {
     line-height: 159%; /* 33.39px */
     letter-spacing: 1.47px;
 }
+
+@media screen and (max-width: 491px) {
+    .aboutContentAll {
+        padding-top: 140px;
+    }
+
+    #headshot {
+        margin: 30px auto;
+        width: 50%;
+    }
+
+    .aboutSubheader {
+        font-size: 35px;
+    }
+
+    .aboutContainer {
+        display: block;
+    }
+
+    .aboutContainer #intro {
+        width: 75%;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .myMission #missionText {
+        width: 75%;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .funFacts ul .factText {
+        padding: 0;
+        font-size: 18px;
+        width: 80%;
+    }
+}

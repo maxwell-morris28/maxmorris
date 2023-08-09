@@ -47,9 +47,9 @@ function About() {
               <h2 className='aboutSubheader' id='funFactHeader'>Fun Facts</h2>
               <ul>
                 <li className='factText'>I have a minor in Japanese (よろよろしくおねがいします！)</li><br></br>
-                <li className="factText">I am a gamer currently working on developing my own game (JRPG's are my absolute favorite. I
+                <li className="factText">I am a gamer currently working on developing my own game (JRPG&apos;s are my absolute favorite. I
                 also love Super Smash Bros. Ultimate! )</li><br></br>
-                <li className='factText'>I learned how to use a computer at three years old and my passion for them hasn't changed!</li><br></br>
+                <li className='factText'>I learned how to use a computer at three years old and my passion for them hasn&apos;t changed!</li><br></br>
                 <li className="factText">I like to run 10K&apos;s in my spare time. As of right now, I can do around 53 minutes!</li><br></br>
               </ul>
               <br></br><br></br>

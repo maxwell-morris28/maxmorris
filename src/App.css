@@ -17,7 +17,7 @@ body {
 .subheader {
   margin: auto;
   display: flex;
-  width: 657px;
+  max-width: 657px;
   height: 167px;
   flex-direction: column;
   align-items: center;
@@ -39,5 +39,23 @@ h2 {
 @media screen and (max-width: 600px) {
   html, body {
     overflow-x: hidden;
+  }
+  .subheader {
+    height: 140px;
+    padding: 30px 0;
+
+  }
+  .subheader h2 {
+    margin: 0 20px;
+    font-size: 25px;
+  }
+
+}
+
+/*Galaxy fold is 280px width*/
+@media screen and (max-width: 319px) {
+  .subheader h2 {
+    margin: 0 20px;
+    font-size: 15px;
   }
 }
