@@ -8,3 +8,21 @@
 .contactContentAll {
     padding-top: 210px;
 }
+
+@media screen and (max-width: 491px) {
+    .contactContentAll {
+        padding-top: 140px;
+    }
+    .buttonContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+/*iPhone 4 and smaller */
+@media screen and (max-height: 567px) {
+    #contactBackground {
+        height: auto;
+    }  
+}

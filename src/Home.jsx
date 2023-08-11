@@ -19,6 +19,8 @@ function Home() {
             <ResumeButton />
             <ContactButton />
           </div>
+          <br></br>
+
         </div>
       </div>
     )

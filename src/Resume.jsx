@@ -8,7 +8,7 @@ function Resume() {
         <div className='card-overlay' id='resumeOverlay'>
           <SubBanner pageName='Resumé'/>
           <div className="resumeContentAll">
-            <h2 id='resumeSubheader'>UX Designer/Resarcher</h2>  
+            <h2 id='resumeSubheader'>UX Designer / Resarcher</h2>  
             <div className='resumeContainer'>          
               <p> I have a B.S. in Information Science and will be graduating from the Human-Computer Interaction Master’s program at the 
                 University of Maryland this coming Spring 2024. 
@@ -16,6 +16,8 @@ function Resume() {
                 in aiding others and have also taken on leadership roles promoting diversity and inclusion. 
                 Please see the link to my resume below.</p>
               <ResumeSubButton />
+              <br></br><br></br>
+
             </div>
           </div>
         </div>

@@ -14,6 +14,8 @@ function Contact() {
               <div className='buttonContainer'>
                 <ContactSubButton contactName='Email' contactLink='mailto: mmorri2000@gmail.com'/>
                 <ContactSubButton contactName='LinkedIn' contactLink='https://www.linkedin.com/in/maxwell-morris-7bb559176/'/>
+                <br></br><br></br>
+
               </div>
             </div>
           </div>
