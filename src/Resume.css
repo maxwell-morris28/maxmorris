@@ -102,11 +102,16 @@ button {
 
 /*iPhone 4 and smaller */
 @media screen and (max-height: 567px) {
+    
     .resumeContentAll {
-        padding-top: 100px;
     }
     #resumeBackground {
         height: auto;
     }  
 }
 
+@media screen and (min-width: 491px) and (max-height: 725px) {
+    #resumeBackground {
+        height: auto;
+    }
+  }

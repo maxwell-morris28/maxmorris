@@ -84,7 +84,7 @@ html, body {
 @media screen and (max-width: 491px) {
     .project-container h1 {
         max-width: 300px;
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
         padding-left: 10px;
         padding-right: 10px;
@@ -96,10 +96,50 @@ html, body {
         margin: 0 auto;
     }
     .projectContentAll {
-        padding-top: 120px;
+        padding-top: 100px;
     }
     .ProjectOne {
 
+    }
+}
+
+@media screen and (max-width: 400px) and (max-height: 740px) {
+    .project-container h1 {
+        max-width: 300px;
+        font-size: 25px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 100px;
+    }
+    .project-container p {
+        text-align: center;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .projectContentAll {
+        padding-top: 100px;
+    }
+    
+}
+
+/*iPhone 4 and smaller */
+@media screen and (max-width: 400px) and (max-height: 567px) {
+    .project-container h1 {
+        max-width: 300px;
+        font-size: 30px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 100px;
+    }
+    .project-container p {
+        text-align: center;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .projectContentAll {
+        padding-top: 85px;
     }
 }
 
