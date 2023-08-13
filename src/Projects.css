@@ -145,6 +145,7 @@ html, body {
 
 @media screen and (min-width: 491px) and (max-width: 1082px) {
     .project-container h1 {
+        max-width: 700px;
         font-size: 45px;
         text-align: center;
         padding-left: 10px;
