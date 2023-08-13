@@ -1,7 +1,6 @@
 {
   "name": "maxmorris",
   "private": false,
-  "homepage": "https://maxwell-morris28.github.io/maxmorris/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
