@@ -5,7 +5,6 @@ import './Home.css';
 
 
 function Home() {
-  window.scrollTo(0,0);
     return (
       <div id='HomeMenu'>
         <div className='card-overlay'>

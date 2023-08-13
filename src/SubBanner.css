@@ -3,7 +3,7 @@
     top: 15%;
     left: 2%;
 }
-@media screen and (max-width: 491px) {
+@media screen and (max-width: 600px) {
     #backPosition {
         top: 33%;
         left: 5%;
@@ -15,4 +15,10 @@
         top: 25%;
 
     }
+}
+
+@media screen and (min-width: 491px) and (max-width: 900px) {
+    #backPosition {
+        top: 35%;
+    }  
 }

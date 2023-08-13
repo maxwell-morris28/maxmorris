@@ -7,15 +7,16 @@ import Contact from './Contact.jsx';
 import './App.css';
 
 
+
 function App() {
   return (
-    <Routes>
-      <Route path='/' element={ <Home /> } />
-      <Route path='/Projects' element={ <Projects /> } />
-      <Route path='/About' element={ <About /> } />
-      <Route path='/Resume' element={ <Resume /> }/>
-      <Route path='/Contact' element={ <Contact /> }/>
-    </Routes>
+      <Routes>
+        <Route path='/' element={ <Home /> } />
+        <Route path='/Projects' element={ <Projects /> } />
+        <Route path='/About' element={ <About /> } />
+        <Route path='/Resume' element={ <Resume /> }/>
+        <Route path='/Contact' element={ <Contact /> }/>
+      </Routes>
     
     
   )

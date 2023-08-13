@@ -161,3 +161,38 @@ ul {
         padding-top: 120px;
     }
 }
+
+@media screen and (min-width: 491px) and (max-width: 1082px) {
+    .aboutSubheader {
+      font-size: 40px;
+    }
+
+    .aboutContainer {
+        display: block;
+    }
+
+    #intro {
+        width: 75%;
+        margin-bottom: 20px;
+
+    }
+    
+    #headshot {
+        margin: 30px auto;
+    }
+
+    .myMission #missionText {
+        width: 75%;
+        margin-bottom: 20px;
+        
+    }
+
+    .funFacts ul .factText {
+        padding: 0;
+        width: 80%;
+    }
+
+    .aboutContentAll {
+    }
+
+}
