@@ -1,6 +1,6 @@
-import SubBanner from "./SubBanner"
-import "./About.css"
-import './Max_Headshot.png'
+import SubBanner from "./SubBanner";
+import "./About.css";
+import './Max_Headshot.png';
 
 
 function About() {

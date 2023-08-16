@@ -1,6 +1,6 @@
-import SubBanner from "./SubBanner"
-import { ContactSubButton } from "./HomeButtons"
-import './Contact.css'
+import SubBanner from "./SubBanner";
+import { ContactSubButton } from "./HomeButtons";
+import './Contact.css';
 function Contact() {
     return (
       <div id='contactBackground'>

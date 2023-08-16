@@ -1,6 +1,6 @@
 import './SubBanner';
 import SubBanner from './SubBanner';
-import './Projects.css'
+import './Projects.css';
 import { ProjectsSubButton } from './HomeButtons';
 
 function Projects() {

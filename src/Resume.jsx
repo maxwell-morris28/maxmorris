@@ -1,6 +1,6 @@
-import SubBanner from "./SubBanner"
-import './Resume.css'
-import { ResumeSubButton } from './HomeButtons'
+import SubBanner from "./SubBanner";
+import './Resume.css';
+import { ResumeSubButton } from './HomeButtons';
 
 
 
