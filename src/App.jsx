@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from '../node_modules/react-router-dom/dist/index';
 import Home from './Home.jsx';
 import Projects from './Projects.jsx';
 import About from './About.jsx';
