@@ -11,6 +11,7 @@ function SubBanner(props) {
             <div className="container">
                 <h1>{props.pageName}</h1>
             </div>
+
         </div>
 
     );

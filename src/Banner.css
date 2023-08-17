@@ -88,4 +88,11 @@ h1 {
     .container {
         height: auto;
     }
+
+    .container h1 {
+        font-size: 50px;
+    }
+    .subBannerContainer {
+        border-radius: 0;
+    }
 }
