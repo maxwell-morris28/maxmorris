@@ -18,7 +18,7 @@ function About() {
                 I was introduced to technology at a very young age, which has fostered an interest that played a huge role in 
                 deciding my career path. As a result, I have gained experience and skills across multiple disciplines, such as 
                 UX Design and web development.</p>
-              <img id='headshot' src="../assets/Max_Headshot-acf5b639.png" alt='Professional headshot of me smiling while wearing a dark blue blazer 
+              <img id='headshot' src="dist/assets/Max_Headshot-acf5b639.png" alt='Professional headshot of me smiling while wearing a dark blue blazer 
               with a light blue shirt'/>
             </div>
             <div className='myMission'>

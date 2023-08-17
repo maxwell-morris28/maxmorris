@@ -7,7 +7,7 @@
     width: 100%;
     height: 100%;
     z-index: -10;
-    background: url(pexels-pixabay-434337-06132623.jpg) no-repeat center center;
+    background: url(pexels-pixabay-434337.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -68,10 +68,22 @@ button {
     font-size: 5px;
 }
 
-.card-overlay {
-    width: 100%; 
-    height: 100%; 
+.card-overlay::before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -11;
     background-color: rgba(0, 0, 0, 0.6);
+    background: cover no-repeat center center;
+  }
+
+  .card-overlay {
+    width: 100%;
+    height: 100%;
   }
 
   @media screen and (max-width: 491px) {
