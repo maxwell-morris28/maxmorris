@@ -1,9 +1,21 @@
+#HomeMenu::before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url(homeBackground_cropped-62c2af82.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 #HomeMenu {
     height:100%;
-    background-image: url('../dist/assets/homeBackground_cropped-62c2af82.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     /*overflow-y:hidden ;*/
 }
 
