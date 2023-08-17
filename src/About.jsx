@@ -49,7 +49,7 @@ function About() {
             <div className='funFacts'>
               <h2 className='aboutSubheader' id='funFactHeader'>Fun Facts</h2>
               <ul>
-                <li className='factText'>I have a minor in Japanese (よろよろしくおねがいします！)</li><br></br>
+                <li className='factText'>I have a minor in Japanese (よろしくおねがいします！)</li><br></br>
                 <li className="factText">I am a gamer currently working on developing my own game (JRPG&apos;s are my absolute favorite. I
                 also love Super Smash Bros. Ultimate! )</li><br></br>
                 <li className='factText'>I learned how to use a computer at three years old and my passion for them hasn&apos;t changed!</li><br></br>
