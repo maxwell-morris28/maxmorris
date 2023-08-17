@@ -68,7 +68,7 @@ button {
     font-size: 5px;
 }
 
-.card-overlay::before {
+/*.card-overlay::before {
     content: "";
     display: block;
     position: fixed;
@@ -79,7 +79,7 @@ button {
     z-index: -11;
     background-color: rgba(0, 0, 0, 0.6);
     background: cover no-repeat center center;
-  }
+  }*/
 
   .card-overlay {
     width: 100%;
