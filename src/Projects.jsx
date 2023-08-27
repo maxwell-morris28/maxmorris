@@ -25,7 +25,7 @@ function Projects() {
                 <h1 className='project-title'>New Student Social Events</h1>
                 <p className='project-desc'>Designing an app for students new to the University of Maryland 
                   in order to connect them to the local social scene</p>
-                  <ProjectsSubButton projectLink='https://uxfol.io/home/portfolios/mmorris18/p/021f5382'/>
+                  <ProjectsSubButton projectLink='https://uxfol.io/p/mmorris18/021f5382'/>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ function Projects() {
               <div className='project-container'>
                 <h1 className='project-title'>Usability Evaluation: User Testing</h1>
                 <p className='project-desc'>A moderated study of the desktop version of YouTube to assess its usability</p>
-                  <ProjectsSubButton projectLink='https://uxfol.io/home/portfolios/mmorris18/p/021f5383'/>
+                  <ProjectsSubButton projectLink='https://uxfol.io/p/mmorris18/021f5383'/>
                 </div>
             </div>  
           </div> 
@@ -46,7 +46,7 @@ function Projects() {
                 <h1 className='project-title'>Website Usability & Accessibility</h1>
                 <p className='project-desc'>Aiding library professionals in facilitating computational thinking 
                 classes for children through a more accessible website redesign</p>
-                  <ProjectsSubButton projectLink='https://uxfol.io/home/portfolios/mmorris18/p/0302aae8'/>
+                  <ProjectsSubButton projectLink='https://uxfol.io/p/mmorris18/0302aae8'/>
                 </div>
             </div>  
           </div>
