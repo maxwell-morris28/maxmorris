@@ -18,7 +18,7 @@ html, body {
 .ProjectOne {
     height: 520px;
     margin-bottom: 20px;
-    background-image: url('social_events.png');
+    background-image: url('health.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -27,7 +27,7 @@ html, body {
 .ProjectTwo {
     height: 520px;
     margin-bottom: 20px;
-    background-image: url('homeBackground_cropped.png');
+    background-image: url('social_events.png');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -35,7 +35,7 @@ html, body {
 
 .ProjectThree {
     height: 520px;
-    background-image: url('social_events.png');
+    background-image: url('testing.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 20px;
@@ -43,7 +43,7 @@ html, body {
 
 .ProjectFour {
     height: 520px;
-    background-image: url('social_events.png');
+    background-image: url('usewebsite.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 20px;
@@ -51,7 +51,7 @@ html, body {
 
 .ProjectFive {
     height: 520px;
-    background-image: url('social_events.png');
+    background-image: url('onlinelearn.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
