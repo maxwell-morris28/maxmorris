@@ -19,7 +19,7 @@ function Projects() {
             </div>
           </div>
           
-          <div className ='ProjectTwo'>
+          {/*<div className ='ProjectTwo'>
             <div className='card-overlay'>
               <div className='project-container'>
                 <h1 className='project-title'>New Student Social Events</h1>
@@ -28,7 +28,7 @@ function Projects() {
                   <ProjectsSubButton projectLink='https://uxfol.io/p/mmorris18/021f5382'/>
               </div>
             </div>
-          </div>
+          </div>*/}
           
           <div className='ProjectThree'>
             <div className='card-overlay'>
