@@ -28,9 +28,9 @@ function Projects() {
                   <ProjectsSubButton projectLink='https://uxfol.io/p/mmorris18/021f5382'/>
               </div>
             </div>
-          </div>*/}
+          </div>}
           
-          {/*<div className='ProjectThree'>
+          {<div className='ProjectThree'>
             <div className='card-overlay'>
               <div className='project-container'>
                 <h1 className='project-title'>Usability Evaluation: User Testing</h1>
