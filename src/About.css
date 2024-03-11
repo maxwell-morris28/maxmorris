@@ -7,7 +7,7 @@
     width: 100%;
     height: 100%;
     z-index: -10;
-    background: url(aboutBackground.png) no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(redbackgroundcopy.jpeg) center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,24 +15,24 @@
 }
 
 .aboutContentAll {
-    padding-top: 210px;
+    padding-top: 150px;
 }
 
 .aboutContainer {
     display: flex;
-    margin-bottom: 1%;
+    margin-bottom: 4%;
 }
 
 #intro {
     margin: auto;
-    width: 35%;
+    width: 33%;
     color: #FFF;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "optima", sans-serif;
     font-size: 21px;
     font-style: normal;
     font-weight: 300;
     line-height: 159%; /* 33.39px */
-    letter-spacing: 1.47px;
+    letter-spacing: 0.07em;
     text-align: left;
 }
 
@@ -41,6 +41,8 @@
     margin-right: 15%;
     max-width: 300px;
     max-height: 300px;
+    align-items: center;
+    justify-content: center;
 }
 
 .aboutSubheader {
@@ -53,13 +55,13 @@
 }
 
 #missionText {
-    width: 50%;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 43%;
+    font-family: "optima", sans-serif;
     font-size: 21px;
     font-style: normal;
     font-weight: 300;
     line-height: 159%; /* 33.39px */
-    letter-spacing: 1.47px;
+    letter-spacing: 0.07em;
     text-align: left;
 }
 
@@ -86,7 +88,7 @@ ul {
 
 @media screen and (max-width: 491px) {
     .aboutContentAll {
-        padding-top: 140px;
+        padding-top: 120px;
     }
 
     #headshot {

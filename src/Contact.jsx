@@ -1,11 +1,12 @@
 import SubBanner from "./SubBanner";
+import Banner from "./Banner";
 import { ContactSubButton } from "./HomeButtons";
 import './Contact.css';
 function Contact() {
     return (
       <div id='contactBackground'>
+        <Banner />
         <div className='card-overlay' id='contact-overlay'>
-          <SubBanner pageName='Contact Me'/>
           <div className="contactContentAll">
             <h2 id='resumeSubheader'>Please Feel Free to Reach Out!</h2>
             <div className='resumeContainer'>          

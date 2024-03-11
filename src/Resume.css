@@ -7,7 +7,7 @@
     width: 100%;
     height: 100%;
     z-index: -10;
-    background: url(pexels-pixabay-434337.jpg) no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(redbackgroundcopy.jpeg) center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,31 +24,40 @@
 
 
 .resumeContentAll {
-    padding-top: 210px;
+    padding-top: 150px;
 
 }
 
 #resumeSubheader {
-    margin-top: 0;
+  
     font-size: 50px;
+    color: white;
+    font-family: 'Andada Pro', serif;
+    font-weight: 400;
+    margin: 5% auto;
+    margin-top: 0;
+    text-align: center;
+    letter-spacing: 0.07em;
 }
 
 p {
     display: flex;
-    width: 75%;
+    width: 40%;
     /*height: 139px;*/
     margin: auto;
     flex-direction: row;
     justify-content: center;
     align-self: center;
     color: #FFF;
-    text-align: center;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 25px;
+    text-align: left;
+    font-family: "optima", sans-serif;
+    font-size: 22px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 100;
     line-height: 159%; /* 39.75px */
     margin-bottom: 3%;
+    padding-left: 1%;
+    letter-spacing: 0.07em;
 }
 
 a {
@@ -84,15 +93,34 @@ button {
   .card-overlay {
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.6);
+    /*background-color: rgba(0,0,0,0.6);*/
   }
+  @media screen and (max-width: 1024px) {
+
+    .resumeContainer p {
+        width: 75%;
+        font-size: 18px;
+        margin-bottom: 40px;
+        text-align: left;
+        letter-spacing: 1.47px;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    #resumeSubheader {
+        font-size: 36px;
+        width: 90%;
+
+    }
+  }
+
 
   @media screen and (max-width: 491px) {
     #resumeBackground {
         background-attachment: fixed;
     }
     .resumeContentAll {
-        padding-top: 140px;
+        padding-top: 110px;
     }
     #resumeSubheader {
         font-size: 30px;
@@ -113,7 +141,7 @@ button {
 
 @media screen and (max-width: 400px) and (max-height: 900px) {
     #resumeSubheader {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .resumeContainer p {
@@ -142,9 +170,10 @@ button {
 
 
   /*Tablets*/
-@media screen and (min-width: 491px) and (max-width: 1082px) {
+@media screen and (min-width: 651px) and (max-width: 1082px) {
     #resumeSubheader {
       font-size: 42px;
+        width: 80%;
     }
   }
 

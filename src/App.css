@@ -16,35 +16,11 @@ body {
 }
 
 
-.subheader {
-  margin: auto;
-  display: flex;
-  max-width: 657px;
-  height: 167px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-h2 {
-  color: #FFF;
-  text-align: center;
-  font-family: 'Lato';
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 159.023%; /* 63.609px */
-  letter-spacing: 4px;
-}
-
 @media screen and (max-width: 491px) {
   html, body {
     overflow-x: hidden;
   }
   .subheader {
-    height: 140px;
-    padding: 30px 0;
 
   }
   .subheader h2 {
@@ -57,12 +33,10 @@ h2 {
 /*Galaxy fold is 280px width*/
 @media screen and (max-width: 400px) and (max-height: 740px) {
   .subheader {
-    padding: 0;
     margin-bottom: 30px;
   }
   .subheader h2 {
     margin: 0 20px;
-    font-size: 18px;
   }
 }
 

@@ -1,4 +1,6 @@
 import SubBanner from "./SubBanner";
+import Banner from "./Banner";
+
 import './Resume.css';
 import { ResumeSubButton } from './HomeButtons';
 
@@ -7,8 +9,8 @@ import { ResumeSubButton } from './HomeButtons';
 function Resume() {
     return (
         <div id="resumeBackground">
+          <Banner />
           <div className='card-overlay' id='resumeOverlay'>
-            <SubBanner pageName='Resumé'/>
             <div className="resumeContentAll">
               <h2 id='resumeSubheader'>UX Designer / Resarcher</h2>  
               <div className='resumeContainer'>          

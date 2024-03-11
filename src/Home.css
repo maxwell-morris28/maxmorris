@@ -7,7 +7,7 @@
     width: 100%;
     height: 100%;
     z-index: -10;
-    background: url(homeBackground_cropped.png) no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(redbackgroundcopy.jpeg) center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,8 +19,144 @@
     /*overflow-y:hidden ;*/
 }
 
-#resumeOverlay {
-    width: 100%; 
-    height: 100%; 
-    background-color: rgba(0, 0, 0, 0.7);
-  } 
+
+.subheader {
+    font-family: 'Andada Pro', serif;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 5%;
+
+}
+
+.subheader h2 {
+    color: white;
+    font-size: 50px;
+    line-height: 159%;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-family: 'Andada Pro';
+    margin-left: 5%;
+
+}
+
+.name {
+    color: #FB6B6B;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-weight: 200;
+
+
+}
+  .name h1 {
+    font-family: 'Andada Pro';
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 159%;
+    letter-spacing: 0.1em;
+    margin: 0 5%;
+
+
+
+  }
+
+  #subText h2 {
+    font-size: 40px;
+    line-height: 159%;
+    font-weight: 400;
+    font-family: 'Optima', sans-serif;
+    margin: -2% 5%;
+    
+}
+
+.card-overlay {
+    margin: auto;
+}
+
+.projectList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 162px;
+    margin-left: 5%;
+}
+
+.project {
+    width: 450px; /* Set the width of the square */
+    height: 450px; /* Set the height of the square */
+    background-color: white; /* Set the background color of the square */
+}
+
+#projectOne img {
+    width: 450px;
+}
+
+@media screen and (max-width: 1050px) {
+    .subheader {
+        width: 80%;
+        margin: auto;
+        padding-top: 90px;
+        display: flex;
+
+    }
+    #subText h2 {
+        font-size: 30px;
+        line-height: 159%;
+        font-weight: 400;
+        font-family: 'Optima', sans-serif;
+        margin: -2% 5%;
+        
+    }
+
+    .name {
+        margin-left: 10%;
+
+    }
+
+    .name h1 {
+        font-size: 90px;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+
+    #HomeMenu::before {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(redcrop.png) center;
+
+    }
+    .subheader {
+        padding-top: 90px;
+        margin-left: 10%;
+    }
+
+    .subheader h2 {
+        font-size: 25px;
+
+    }
+
+    #subText.subheader  {
+        width: 80%;
+        padding-top: 20px;
+        display: flex;
+        margin: auto;
+
+    }
+
+    #subText.subheader h2  {
+        
+        font-size: 16px;
+
+    }
+
+    .name {
+        margin-left: 10%;
+
+    }
+
+    .name h1 {
+        font-size: 60px;
+        
+
+    }
+}

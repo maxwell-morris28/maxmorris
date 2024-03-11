@@ -107,17 +107,15 @@
 }
 
 #resumeSubButton {
-    width: 299px;
-    height: 67px;
+    width: 250px;
+    height: 60px;
     flex-shrink: 0;
-    border-radius: 10px;
     border: 2px solid #FFF;
-    background: rgba(102, 104, 0, 0.30);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgba(102, 104, 0, 0);
     color: #FFF;
     text-align: center;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 22px;
+    font-family: "optima", sans-serif;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 159.023%; /* 47.707px */
@@ -125,9 +123,11 @@
 }
 
 #resumeSubButton:hover {
-    transition: 100ms;
-    background: rgba(250, 255, 0, 0.35);
-    font-weight: 700;   
+    transition: 300ms;
+    background: rgba(255, 255, 255, 1);
+    color: black;
+    font-weight: 450;
+
 }
 
 #contactButton {
@@ -161,30 +161,29 @@
 
 #contactSubButton {
     width: 250px;
-    height: 67px;
+    height: 60px;
     flex-shrink: 0;
-    border-radius: 10px;
     border: 2px solid #FFF;
-    background: rgba(100, 0, 0, 0.40);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgba(102, 104, 0, 0);
     display: flex;
     color: white;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 22px;
+    font-family: "optima", sans-serif;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 159.023%; /* 34.985px */
     letter-spacing: 2.2px;
 }
 
 #contactSubButton:hover {
-    transition: 100ms;
-    background: rgba(255, 0, 0, 0.35);
-    font-weight: 700; 
+    transition: 300ms;
+    background: rgba(255, 255, 255, 1);
+    color: black;
+    font-weight: 500;
 }
 
 a {
@@ -241,7 +240,7 @@ a:visited {
     }
 
     #resumeSubButton {
-        min-width: 220px;
+        min-width: 200px;
         width: 100%;
         height: 80%;
         font-size: 16px;
@@ -250,10 +249,9 @@ a:visited {
     }
 
     #contactSubButton {
-        min-width: 220px;
+        min-width: 200px;
         width: 100%;
-        height: 80%;
-        font-size: 20px;
+        font-size: 16px;
         padding: 15px 15px;
     }
 }

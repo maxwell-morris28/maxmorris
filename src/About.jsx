@@ -1,28 +1,30 @@
 import SubBanner from "./SubBanner";
+import Banner from "./Banner";
 import "./About.css";
-import './Max_Headshot.png';
+//import './Max_Headshot.png';
 
 
 function About() {
     return (
       <div id="aboutBackground">
-        <div className='card-overlay' id='resumeOverlay'>
-          <SubBanner pageName='About Me'/>
-          
+        <Banner />
+        <div className='card-overlay' id='resumeOverlay'>          
             
           <div className="aboutContentAll">
-            <h2 className='aboutSubheader'>Nice to Meet You!</h2>
+            <h2 id='resumeSubheader'>Part-Time Gamer. Full-Time Creator.</h2>
             <div className='aboutContainer'>          
               <p id="intro">My name is Maxwell Morris, but you can just call me Max! I am currently attending the University of Maryland, 
                 College Park in my last year pursuing a Master&apos;s degree in Human-Computer Interaction.<br></br><br></br> 
                 I was introduced to technology at a very young age, which has fostered an interest that played a huge role in 
                 deciding my career path. As a result, I have gained experience and skills across multiple disciplines, such as 
-                UX Design and web development.</p>
+                UX Design and web development.<br></br><br></br>In my spare time, I like to expand my sizeable library of games.
+                My favorites are typically real-time action RPG’s like Kingdom Hearts, but I also like the fighting and shooter
+                genres.</p>
               <img id='headshot' src="dist/assets/Max_Headshot-acf5b639.png" alt='Professional headshot of me smiling while wearing a dark blue blazer 
               with a light blue shirt'/>
             </div>
             <div className='myMission'>
-              <h2 className='aboutSubheader' id='missionHeader'>My Mission</h2>
+              <h2 id='resumeSubheader'>My Mission</h2>
               <p id='missionText'>My love for computers and tech is matched by my strong desire to help others. I take pride in my strong
               sense of empathy, especially as a person of color who works directly with disadvantaged undergraduate students to help 
               build them up despite their circumstances. I believe in “Contextual Design,” where I can immerse in the lives of those 
@@ -46,7 +48,7 @@ function About() {
               for what I do.
               </p>
             </div>
-            <div className='funFacts'>
+            {/*<div className='funFacts'>
               <h2 className='aboutSubheader' id='funFactHeader'>Fun Facts</h2>
               <ul>
                 <li className='factText'>I have a minor in Japanese (よろしくおねがいします！)</li><br></br>
@@ -55,8 +57,8 @@ function About() {
                 <li className='factText'>I learned how to use a computer at three years old and my passion for them hasn&apos;t changed!</li><br></br>
                 <li className="factText">I like to run 10K&apos;s in my spare time. As of right now, I can do around 53 minutes!</li><br></br>
               </ul>
-              <br></br><br></br>
-            </div>
+                <br></br><br></br>
+            </div>*/}
           </div>
         </div>
       </div>

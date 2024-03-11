@@ -27,7 +27,7 @@ export function ResumeButton() {
 
 export function ResumeSubButton() {
     return (
-        <a href='src/maxmorris_resume.pdf'><button className='homeButton' id='resumeSubButton'>Download Resumé</button></a>
+        <a href='src/maxmorris_resume.pdf'><button className='homeButton' id='resumeSubButton'>Download Resume</button></a>
     );
 }
 
