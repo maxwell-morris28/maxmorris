@@ -30,14 +30,15 @@
 
 #resumeSubheader {
   
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     font-family: 'Andada Pro', serif;
     font-weight: 400;
-    margin: 5% auto;
+    margin: 3% auto;
     margin-top: 0;
     text-align: center;
     letter-spacing: 0.07em;
+    line-height: 159%;
 }
 
 p {
@@ -51,7 +52,7 @@ p {
     color: #FFF;
     text-align: left;
     font-family: "optima", sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 100;
     line-height: 159%; /* 39.75px */
@@ -98,7 +99,7 @@ button {
   @media screen and (max-width: 1024px) {
 
     .resumeContainer p {
-        width: 75%;
+        width: 60%;
         font-size: 18px;
         margin-bottom: 40px;
         text-align: left;
@@ -106,6 +107,12 @@ button {
     }
   }
 
+  @media screen and (max-width: 1082px) {
+    .resumeSubheader {
+        font-size: 35px;
+    }
+
+  }
   @media screen and (max-width: 650px) {
     #resumeSubheader {
         font-size: 36px;

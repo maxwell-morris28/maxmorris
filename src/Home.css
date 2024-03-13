@@ -31,7 +31,7 @@
 
 .subheader h2 {
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 159%;
     font-weight: 400;
     letter-spacing: 0.1em;
@@ -51,7 +51,7 @@
 }
   .name h1 {
     font-family: 'Andada Pro';
-    font-size: 150px;
+    font-size: 130px;
     font-weight: 400;
     line-height: 159%;
     letter-spacing: 0.1em;
@@ -62,11 +62,12 @@
   }
 
   #subText h2 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 159%;
     font-weight: 400;
     font-family: 'Optima', sans-serif;
-    margin: -2% 5%;
+    margin: 0 5%;
+    margin-bottom: 5%;
     
 }
 
@@ -74,22 +75,43 @@
     margin: auto;
 }
 
+.projectBody {
+    display: flex;
+    justify-content: center;
+}
 .projectList {
     display: flex;
     flex-wrap: wrap;
-    gap: 162px;
-    margin-left: 5%;
+    gap: 150px;
+    justify-content: space-between;
+    margin: 0 5%;
+    margin-bottom: 5%;
 }
 
 .project {
-    width: 450px; /* Set the width of the square */
-    height: 450px; /* Set the height of the square */
-    background-color: white; /* Set the background color of the square */
+    width: 70%;
+    max-width: 350px; /* Set the width of the square */
+
 }
 
 #projectOne img {
-    width: 450px;
+    width: 100%;
 }
+
+#projectTwo img {
+    width: 100%;
+}
+
+#projectThree img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1500px) {
+    .projectList {
+        justify-content: center;
+    }
+}
+
 
 @media screen and (max-width: 1050px) {
     .subheader {
@@ -104,8 +126,8 @@
         line-height: 159%;
         font-weight: 400;
         font-family: 'Optima', sans-serif;
-        margin: -2% 5%;
-        
+        margin-bottom: 10%;
+
     }
 
     .name {
@@ -115,6 +137,13 @@
 
     .name h1 {
         font-size: 90px;
+    }
+
+    .projectList {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
     }
 }
 

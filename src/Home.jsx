@@ -9,7 +9,6 @@ function Home() {
       
       <div id='HomeMenu'>
         <Banner />
-        <div className='card-overlay'>
           <div className='subheader'>
             <h2>Hi, I'm</h2>
           </div>
@@ -19,33 +18,35 @@ function Home() {
           <div className='subheader' id='subText'>
             <h2>Combining Design, Research, and Code to Create People-Friendly Experiences. Built from scratch with Figma and React.</h2>
           </div>
-          <br></br>          <br></br>
-          <br></br>          <br></br>
-          <br></br>
-          <br></br>
+         
 
+          <div className='projectBody'>
+            <div className='projectList'>
 
-          <div className='projectList'>
+              <div className='project' id='projectOne'>
+                <img src='src/healthcrop.jpg'></img>
+              </div>
 
-            <div className='project' id='projectOne'>
-              <img src='src/healthcrop.jpg'></img>
-              <h2>Preventative Healthcare Model</h2>
+              <div className='project' id='projectTwo'>
+                <img src='src/healthcrop.jpg'></img>
+                
+              </div>
+
+              <div className='project' id='projectThree'>
+                <img src='src/healthcrop.jpg'></img>
+              </div>
+
+              <div className='project' id='projectThree'>
+                <img src='src/healthcrop.jpg'></img>
+              </div>
+
             </div>
-
-            <div className='project' id='ProjectTwo'>
-              
-            </div>
-
-            <div className='project' id='projectThree'>
-              
-            </div>
-
           </div>
+          
          
           
           <br></br>
 
-        </div>
       </div>
     )
   }

@@ -17,7 +17,8 @@ function About() {
                 College Park in my last year pursuing a Master&apos;s degree in Human-Computer Interaction.<br></br><br></br> 
                 I was introduced to technology at a very young age, which has fostered an interest that played a huge role in 
                 deciding my career path. As a result, I have gained experience and skills across multiple disciplines, such as 
-                UX Design and web development.<br></br><br></br>In my spare time, I like to expand my sizeable library of games.
+                UX Design and web development.<br></br><br></br>
+                In my spare time, I like to expand my sizeable library of games.
                 My favorites are typically real-time action RPG’s like Kingdom Hearts, but I also like the fighting and shooter
                 genres.</p>
               <img id='headshot' src="dist/assets/Max_Headshot-acf5b639.png" alt='Professional headshot of me smiling while wearing a dark blue blazer 

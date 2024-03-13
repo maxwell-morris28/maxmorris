@@ -123,10 +123,11 @@
 }
 
 #resumeSubButton:hover {
+    font-weight: 500;
     transition: 300ms;
     background: rgba(255, 255, 255, 1);
     color: black;
-    font-weight: 450;
+    
 
 }
 

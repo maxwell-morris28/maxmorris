@@ -28,7 +28,7 @@
     width: 33%;
     color: #FFF;
     font-family: "optima", sans-serif;
-    font-size: 21px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: 159%; /* 33.39px */
@@ -57,7 +57,7 @@
 #missionText {
     width: 43%;
     font-family: "optima", sans-serif;
-    font-size: 21px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: 159%; /* 33.39px */
@@ -86,7 +86,7 @@ ul {
     letter-spacing: 1.47px;
 }
 
-@media screen and (max-width: 491px) {
+@media screen and (max-width: 591px) {
     .aboutContentAll {
         padding-top: 120px;
     }
@@ -104,17 +104,19 @@ ul {
         display: block;
     }
 
+    .myMission #missionText {
+            width: 75% !important; /*weirdly shows up as 55% at this width*/
+            font-size: 18px;
+            margin-bottom: 20px;
+    }
+
     .aboutContainer #intro {
         width: 75%;
         font-size: 18px;
         margin-bottom: 20px;
     }
 
-    .myMission #missionText {
-        width: 75%;
-        font-size: 18px;
-        margin-bottom: 20px;
-    }
+    
 
     .funFacts ul .factText {
         padding: 0;
@@ -184,7 +186,7 @@ ul {
     }
 
     #intro {
-        width: 75%;
+        width: 55%;
         margin-bottom: 20px;
 
     }
@@ -194,7 +196,7 @@ ul {
     }
 
     .myMission #missionText {
-        width: 75%;
+        width: 55%;
         margin-bottom: 20px;
         
     }
