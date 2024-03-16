@@ -25,7 +25,6 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding-top: 5%;
 
 }
 
@@ -37,6 +36,11 @@
     letter-spacing: 0.1em;
     font-family: 'Andada Pro';
     margin-left: 5%;
+
+}
+
+#greetingText {
+    padding-top: 5%;
 
 }
 
@@ -53,9 +57,9 @@
     font-family: 'Andada Pro';
     font-size: 130px;
     font-weight: 400;
-    line-height: 159%;
+    line-height: 100%;
     letter-spacing: 0.1em;
-    margin: 0 5%;
+    margin: 0 4%;
 
 
 
@@ -67,7 +71,8 @@
     font-weight: 400;
     font-family: 'Optima', sans-serif;
     margin: 0 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
+    padding-top: 4%;
     
 }
 
@@ -82,28 +87,129 @@
 .projectList {
     display: flex;
     flex-wrap: wrap;
-    gap: 150px;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 100px;
     margin: 0 5%;
     margin-bottom: 5%;
 }
 
 .project {
-    width: 70%;
-    max-width: 350px; /* Set the width of the square */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    display: flex;
+    gap: 300px;
 
+}
+
+.rectangle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.projectText {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+    color: #FFF;
+    font-family: ""Andada Pro"", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 159%; /* 33.39px */
+    letter-spacing: .1em;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.projectTitle {
+    color: #FB6B6B;
+    font-size: 40px;
+    line-height: 159%;
+    margin-bottom: 0;
+
+}
+
+.projectText a {
+    width: 80%;
+}
+
+#projectOne .projectText a {
+    width: 75%;
+}
+
+#projectTwo .projectText a {
+    width: 60%;
+}
+
+
+.projectTopics {
+    font-weight: 400;
+    font-family: "Optima", serif;
+    color: white;
+
+}
+
+.projectDesc {
+    justify-content: flex-start;
+    width: 80%;
+    margin: 0;
+    margin-bottom: 10%;
+    margin-right: 20%;
 }
 
 #projectOne img {
-    width: 100%;
+    display: flex;
+    max-width: 450px;
+    margin-left: 5%;
+    
 }
 
 #projectTwo img {
-    width: 100%;
+    display: flex;
+    max-width: 450px;
+    margin-right: 5%;
+
 }
 
 #projectThree img {
-    width: 100%;
+    display: flex;
+    max-width: 450px;
+    margin-left: 5%;
+
+}
+
+#projectFour img {
+    display: flex;
+    max-width: 450px;
+    margin-right: 5%;
+
+}
+
+@media screen and (max-width: 1209px) {
+    .project {
+        gap: 200px;
+    }
+    .projectText {
+
+        
+    }
+    .projectTitle {
+        font-size: 30px;
+    
+    }
+
+    .projectTopics {
+        font-size: 25px;
+    }
+
+    .projectDesc {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 1500px) {
@@ -117,17 +223,20 @@
     .subheader {
         width: 80%;
         margin: auto;
-        padding-top: 90px;
         display: flex;
 
     }
     #subText h2 {
-        font-size: 30px;
+        font-size: 25px;
         line-height: 159%;
         font-weight: 400;
         font-family: 'Optima', sans-serif;
         margin-bottom: 10%;
 
+    }
+
+    #greetingText h2 {
+        padding-top: 5%;
     }
 
     .name {
@@ -188,4 +297,49 @@
         
 
     }
+}
+@media screen and (max-width: 560px) {
+
+    .projectText {
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .projectTitle {
+        font-size: 25px;
+    }
+    .projectTopics {
+       font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    .projectText {
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .projectTitle {
+        font-size: 20px;
+    }
+    .projectTopics {
+        font-size: 16px;
+     }
+}
+
+@media screen and (max-width: 400px) {
+
+    .projectText {
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .projectTitle {
+        font-size: 20px;
+        
+    }
+    .projectTopics {
+        font-size: 12px;
+     }
 }

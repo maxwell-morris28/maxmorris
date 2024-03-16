@@ -11,6 +11,8 @@ html, body, h1  {
     color: white;
     position: fixed;
     width: 100%;
+    z-index: 10;
+    
 
 }
 
@@ -23,6 +25,16 @@ html, body, h1  {
     font-size: 18px;
     letter-spacing: 0.1em;
 
+}
+
+.nav:hover {
+    transition: 200ms;
+    color: #DE6BFB;
+}
+
+#projects {
+    color: #85FF5A;
+    font-weight: 800;
 }
 
 .container h3 {
@@ -39,6 +51,7 @@ h1 {
 .logo {
     position: absolute;
     margin: 0;
+    margin-left: 4%;
 }
 
 .logo img {
